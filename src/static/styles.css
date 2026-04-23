@@ -74,6 +74,76 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-section {
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #ffffff 0%, #f3f6ff 100%);
+  border: 1px solid #d8def5;
+}
+
+.participants-title {
+  margin-bottom: 8px;
+  color: #1a237e;
+}
+
+.participants-list {
+  list-style: none;
+  margin-left: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.participant-item {
+  color: #24304d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  word-break: break-word;
+  background-color: #ffffff;
+  border: 1px solid #dfe4fb;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.participant-email {
+  overflow-wrap: anywhere;
+}
+
+.unregister-btn {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  border-radius: 8px;
+  border: 1px solid #f0c2c2;
+  background-color: #fff4f4;
+  color: #b00020;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.unregister-btn svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.unregister-btn:hover {
+  background-color: #ffe8e8;
+  border-color: #e99a9a;
+  transform: translateY(-1px);
+}
+
+.unregister-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
